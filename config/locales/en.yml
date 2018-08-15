@@ -3,6 +3,7 @@ en:
     title: "The Title"
     ruby_sample: "Ruby on Rails Tutorial Sample App"
     login: "Log in"
+    sign_up_now: "Sign up now!"
 
     home_page:
       home: "Home"
@@ -41,5 +42,6 @@ en:
     user_page:
       sign_up: "Sign up"
       sign_up_page: "This will be a signup page for new users."
+
     new_page:
       new: "New"
