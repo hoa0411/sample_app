@@ -1,7 +1,8 @@
+<% provide :title, t("static_pages.title") %>
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LearnRails</title>
+    <title><%= yield(:title) %> | <%= t "static_pages.rb_samp" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
