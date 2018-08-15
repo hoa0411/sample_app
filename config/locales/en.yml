@@ -1,28 +1,28 @@
 en:
   static_pages:
     title: "The Title"
-    rb_samp: "Ruby on Rails Tutorial Sample App"
+    ruby_sample: "Ruby on Rails Tutorial Sample App"
 
     home_page:
       home: "Home"
-      samp: "Sample App"
+      sample: "Sample App"
       this: "This is the home page for the"
-      rb_r: "Ruby on Rails Tutorial"
-      samp_app: "sample application"
+      ruby_rails: "Ruby on Rails Tutorial"
+      sample_app: "sample application"
 
     about_page:
       about: "About"
-      rb: "Ruby on Rails"
+      ruby: "Ruby on Rails"
       is_a: "is a"
       book: "book"
       screencast: "screencast series"
       and: "and"
-      to_teach_web_development_with: "to teach web development with"
+      teach_web: "to teach web development with"
       this_is: "This is the sample application for the tutorial"
 
     help_page:
       help: "Help"
-      help_on: "Get help on the Ruby on Rails Tutorial at the"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
       rails: "Rails Tutorial help section"
       to_get: "To get help on this sample app, see the"
 
