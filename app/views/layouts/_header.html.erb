@@ -1,11 +1,11 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "static_pages.home_page.sample", root_path, id: "logo" %>
+    <%= link_to(t("static_pages.home_page.sample"), root_path, class: "logo") %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "static_pages.home_page.home", root_path %></li>
-        <li><%= link_to "static_pages.help_page.help", help_path %></li>
-        <li><%= link_to "static_pages.login", "#" %></li>
+        <li><%= link_to(t("static_pages.home_page.home"), root_path) %></li>
+        <li><%= link_to(t("static_pages.help_page.help"), help_path) %></li>
+        <li><%= link_to(t("static_pages.login"), "#") %></li>
       </ul>
     </nav>
   </div>

@@ -4,7 +4,7 @@
     <%= t "static_pages.home_page.this_is_home" %>
     <%= link_to(t("static_pages.home_page.ruby_rails"), "http://www.railstutorial.org/") %>
   </h2>
-  <%= link_to "static_pages.sign_up_now", signup_path, class: "btn btn-lg btn-primary" %>
+  <%= link_to(t("static_pages.sign_up_now"), signup_path, class: "btn btn-lg btn-primary") %>
 </div>
 <%= link_to image_tag("rails.png", alt: "Rails logo"), "http://rubyonrails.org/" %>
 

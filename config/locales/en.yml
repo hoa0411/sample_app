@@ -4,6 +4,8 @@ en:
     ruby_sample: "Ruby on Rails Tutorial Sample App"
     login: "Log in"
     sign_up_now: "Sign up now!"
+    empty: "Empty record"
+    form: "The form contains"
 
     home_page:
       home: "Home"
@@ -11,7 +13,7 @@ en:
       this: "This is the home page for the"
       ruby_rails: "Ruby on Rails Tutorial"
       sample_app: "sample application"
-      welcome: "Welcome to the Sample App"
+      welcome: "Welcome to the Sample App!"
       this_is_home: "This is the home page for the"
 
     about_page:
@@ -42,6 +44,7 @@ en:
     user_page:
       sign_up: "Sign up"
       sign_up_page: "This will be a signup page for new users."
+      create_account: "Create my account"
 
     new_page:
       new: "New"
