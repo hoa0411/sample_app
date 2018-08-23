@@ -1,4 +1,6 @@
 user:
+  size:
+    length: 80
   name:
     length:
       maximum: 50
