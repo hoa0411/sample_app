@@ -6,6 +6,7 @@
     <%= form_for(:session, url: login_path) do |f| %>
 
       <%= f.label :email %>
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
       <%= f.email_field :email, class: "form-control" %>
 
       <%= f.label :password %>
@@ -15,10 +16,23 @@
         <%= f.check_box :remember_me, class: "session_remember_me" %>
         <span><%= t "static_pages.remember" %></span>
       <% end %>
+=======
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+>>>>>>> reset d5cf4dc
 
       <%= f.submit t("static_pages.login"), class: "btn btn-primary" %>
     <% end %>
 
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
     <p><%= t "static_pages.user_page.new_user" %> <%= link_to(t("static_pages.sign_up_now"), signup_path) %></p>
+=======
+    <p>
+      <%= t "static_pages.user_page.new_user" %>
+      <%= link_to(t("static_pages.sign_up_now"), signup_path) %>
+    </p>
+>>>>>>> reset d5cf4dc
   </div>
 </div>

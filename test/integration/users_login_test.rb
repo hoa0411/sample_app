@@ -5,6 +5,21 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     @user = users(:michael)
   end
 
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
+=======
+  # test "login with valid information" do
+  #   get login_path
+  #   post login_path, params: { session: { email:    @user.email,
+  #                                         password: 'password' } }
+  #   assert_redirected_to @user
+  #   follow_redirect!
+  #   assert_template 'users/show'
+  #   assert_select "a[href=?]", login_path, count: 0
+  #   assert_select "a[href=?]", logout_path
+  #   assert_select "a[href=?]", user_path(@user)
+  # end
+
+>>>>>>> reset d5cf4dc
   test "login with valid information followed by logout" do
     get login_path
     post login_path, params: {session: {email: @user.email,
@@ -25,6 +40,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]", logout_path, count: 0
     assert_select "a[href=?]", user_path(@user), count: 0
   end
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
 
   test "login with remembering" do
     log_in_as(@user, remember_me: "1")
@@ -38,4 +54,6 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
     log_in_as(@user, remember_me: "0")
     assert_empty cookies["remember_token"]
   end
+=======
+>>>>>>> reset d5cf4dc
 end

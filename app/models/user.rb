@@ -1,9 +1,17 @@
 class User < ApplicationRecord
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
   attr_accessor :remember_token
   before_save{email.downcase!}
+=======
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+  attr_accessor :remember_token
+
+  before_save{email.downcase!}
+
+>>>>>>> reset d5cf4dc
   validates :name, presence: true,
     length: {maximum: Settings.user.name.length.maximum}
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true,
     length: {maximum: Settings.user.email.length.maximum},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}

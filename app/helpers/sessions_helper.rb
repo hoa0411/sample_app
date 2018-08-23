@@ -10,6 +10,7 @@ module SessionsHelper
   end
 
   def current_user
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
     if (user_id = session[:user_id])
       @current_user ||= User.find_by(id: user_id)
     elsif (user_id = cookies.signed[:user_id])
@@ -18,6 +19,10 @@ module SessionsHelper
         log_in user
         @current_user = user
       end
+=======
+    if session[:user_id]
+      @current_user ||= User.find_by(id: session[:user_id])
+>>>>>>> reset d5cf4dc
     end
   end
 
@@ -33,7 +38,10 @@ module SessionsHelper
 
   # Logs out the current user.
   def log_out
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
     forget(current_user)
+=======
+>>>>>>> reset d5cf4dc
     session.delete(:user_id)
     @current_user = nil
   end

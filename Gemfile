@@ -8,7 +8,10 @@ gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "jbuilder", "~> 2.5"
 gem "jquery-rails"
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
 gem "parser", "2.5"
+=======
+>>>>>>> reset d5cf4dc
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.1"
 gem "rails-i18n"
