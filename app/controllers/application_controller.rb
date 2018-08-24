@@ -3,4 +3,6 @@ class ApplicationController < ActionController::Base
   def set_locale
     I18n.locale = params[:locale] || "en"
   end
+  protect_from_forgery with: :exception
+  include SessionsHelper
 end
