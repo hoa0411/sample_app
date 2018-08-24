@@ -1,4 +1,5 @@
 user:
+  rememember: 1
   size:
     length: 80
   name:
