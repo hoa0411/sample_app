@@ -3,9 +3,25 @@ en:
     title: "The Title"
     ruby_sample: "Ruby on Rails Tutorial Sample App"
     login: "Log in"
+    logout: "Log out"
     sign_up_now: "Sign up now!"
     empty: "Empty record"
     form: "The form contains"
+    account: "Account"
+    invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
+    please: "Please log in."
+    edit_user: "Edit user"
+    save: "Save changes"
+    change: "Change"
+    all_user: "All users"
+    account_not_activated: "Account not activated. Check your email for the activation link."
+    please_check_email: "Please check your email to activate your account."
+    hi: "Hi "
+    welcome_active: "Welcome to the Sample App! Click on the link below to activate your account:"
+    acrive: "Activate"
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
 
     home_page:
       home: "Home"
@@ -42,9 +58,19 @@ en:
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
 
     user_page:
+      user: "Users"
       sign_up: "Sign up"
       sign_up_page: "This will be a signup page for new users."
       create_account: "Create my account"
+      new_user: "New user?"
+
+    profile_page:
+      profile: "Profile"
+      profile_update: "Profile updated"
+      update: "Update your profile"
+
+    setting_page:
+      setting: "Settings"
 
     new_page:
       new: "New"
