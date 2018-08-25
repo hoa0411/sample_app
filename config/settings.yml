@@ -11,4 +11,4 @@ user:
   password:
     length:
       minimum: 6
-  boolean: "1"
+  checked_remember: "1"
