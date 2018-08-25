@@ -10,6 +10,11 @@ en:
     account: "Account"
     invalid: "Invalid email/password combination"
     remember: "Remember me on this computer"
+    please: "Please log in."
+    edit_user: "Edit user"
+    save: "Save changes"
+    change: "Change"
+    all_user: "All users"
 
     home_page:
       home: "Home"
@@ -54,6 +59,8 @@ en:
 
     profile_page:
       profile: "Profile"
+      profile_update: "Profile updated"
+      update: "Update your profile"
 
     setting_page:
       setting: "Settings"
