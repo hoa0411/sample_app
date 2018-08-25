@@ -8,6 +8,7 @@ class ActiveSupport::TestCase
   def is_logged_in?
     session[:user_id].present?
   end
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
 
   def log_in_as user
     session[:user_id] = user.id
@@ -19,4 +20,6 @@ class ActiveSupport::TestCase
         password: password, remember_me: remember_me}}
     end
   end
+=======
+>>>>>>> reset d5cf4dc
 end

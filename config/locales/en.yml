@@ -10,7 +10,10 @@ en:
     account: "Account"
     invalid: "Invalid email/password combination"
     remember: "Remember me on this computer"
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
 
+=======
+>>>>>>> reset d5cf4dc
     home_page:
       home: "Home"
       sample: "Sample App"
@@ -19,7 +22,6 @@ en:
       sample_app: "sample application"
       welcome: "Welcome to the Sample App!"
       this_is_home: "This is the home page for the"
-
     about_page:
       about: "About"
       ruby: "Ruby on Rails"
@@ -29,28 +31,25 @@ en:
       and: "and"
       teach_web: "to teach web development with"
       this_is: "This is the sample application for the tutorial"
-
     help_page:
       help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
       rails: "Rails Tutorial help section"
       to_get: "To get help on this sample app, see the"
-
     footer:
       the: "The"
       by: "by"
       micheal: "Michael Hartl"
-
     contact_page:
       contact: "Contact"
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
-
     user_page:
       user: "Users"
       sign_up: "Sign up"
       sign_up_page: "This will be a signup page for new users."
       create_account: "Create my account"
       new_user: "New user?"
+<<<<<<< 2fbe0f15c0cae6b5e5234426d260d4f498922ea4
 
     profile_page:
       profile: "Profile"
@@ -58,5 +57,11 @@ en:
     setting_page:
       setting: "Settings"
 
+=======
+    profile_page:
+      profile: "Profile"
+    setting_page:
+      setting: "Settings"
+>>>>>>> reset d5cf4dc
     new_page:
       new: "New"
