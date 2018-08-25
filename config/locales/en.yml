@@ -9,6 +9,7 @@ en:
     form: "The form contains"
     account: "Account"
     invalid: "Invalid email/password combination"
+    remember: "Remember me on this computer"
 
     home_page:
       home: "Home"
