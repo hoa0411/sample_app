@@ -12,4 +12,3 @@ user:
     length:
       minimum: 6
   checked_remember: "1"
-
