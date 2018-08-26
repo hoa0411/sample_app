@@ -1,8 +1,14 @@
 class UsersController < ApplicationController
+  before_action :find_user, only: [:show, :edit, :upadte]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
+  before_action :correct_user, only: [:edit, :update]
+
+  def index
+    @users = User.where(activated: true).paginate(page: params[:page])
+  end
+
   def show
-    @user = User.find_by id: params[:id]
-    return if @user.present?
-    render html: t("static_pages.empty")
+    @microposts = @user.microposts.paginate(page: params[:page])
   end
 
   def new
@@ -25,5 +31,27 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password,
       :password_confirmation)
+  end
+
+  def logged_in_user
+    unless logged_in?
+      store_location
+      flash[:danger] = t "static_pages.please"
+      redirect_to login_path
+    end
+  end
+
+  def correct_user
+    @user = User.find(params[:id])
+    redirect_to(root_path) unless current_user?(@user)
+  end
+
+  def find_user
+    @user = User.find(params[:id])
+  end
+
+  # Confirms an admin user.
+  def admin_user
+    redirect_to(root_path) unless current_user.admin?
   end
 end
