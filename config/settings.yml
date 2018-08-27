@@ -10,4 +10,10 @@ user:
   password:
     length:
       minimum: 6
-  checked_remember: "1"
+  check_remember: "1"
+
+micropost:
+  content:
+    length:
+      maximum: 140
+  size: 50
