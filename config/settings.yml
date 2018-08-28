@@ -1,4 +1,5 @@
 user:
+  user_all: 50
   size:
     length: 80
   name:
@@ -11,3 +12,4 @@ user:
     length:
       minimum: 6
   checked_remember: "1"
+  boolean: "1"
